@@ -1,5 +1,5 @@
 jQuery.entwine("quickaddnew", function($) {
-	var fieldSelector = '.field.quickaddnew-field .quickaddnew-field';
+	var fieldSelector = '.field.quickaddnew-field .quickaddnew-field:last';
 
 	$(".quickaddnew-button").entwine({
 		onmatch: function() {
